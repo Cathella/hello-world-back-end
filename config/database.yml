@@ -24,8 +24,8 @@ default: &default
 development:
   <<: *default
   database: hello_world_back_end_development
-  username: nakitto
-  password: Mangoes2012
+  username: <%= Rails.application.credentials.db_username %>
+  password: <%= Rails.application.credentials.db_password %>
   port: 5433
 
   # The specified database role being used to connect to postgres.

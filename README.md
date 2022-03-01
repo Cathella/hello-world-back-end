@@ -55,7 +55,7 @@ rails s
 
 - GitHub: [@Cathella](https://github.com/Cathella)
 - Twitter: [@cathella9](https://twitter.com/cathella9)
-- LinkedIn: [Azeez Rotimi](https://www.linkedin.com/in/nakitto-catherine2020/)
+- LinkedIn: [Nakitto Catherine](https://www.linkedin.com/in/nakitto-catherine2020/)
 
 
 ## 🤝 Contributing
