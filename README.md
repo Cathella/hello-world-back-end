@@ -1,24 +1,75 @@
-# README
+![Microverse](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Set up a "Hello world" project with two apps - backend part
 
-Things you may want to cover:
+> Hello Rails App backend
 
-* Ruby version
+## [Frontend GitHub PR](https://github.com/Cathella/hello-react-front-end)
 
-* System dependencies
+## Built With
 
-* Configuration
+- Ruby on Rails
+- PostgreSQL
 
-* Database creation
+## Getting Started
 
-* Database initialization
+To get a local copy up and running follow these simple example steps.
 
-* How to run the test suite
+### Prerequisites
 
-* Services (job queues, cache servers, search engines, etc.)
+- Ruby
+- Rails
 
-* Deployment instructions
+### Setup
 
-* ...
+- Make sure you have Ruby on Rails set up properly on your computer
+- Clone or download this repo on your machine
+- Enter project directory root
+
+### Install
+
+```sh
+bundle install
+```
+
+### Database
+
+```sh
+# Create the database
+rails db:create
+## Apply migration
+rails db:migrate
+# Seed database with 5 greetings
+rails db:seed
+```
+
+### Run
+
+```sh
+rails s
+```
+
+## Author
+
+👤 **Nakitto Catherine**
+
+- GitHub: [@Cathella](https://github.com/Cathella)
+- Twitter: [@cathella9](https://twitter.com/cathella9)
+- LinkedIn: [Nakitto Catherine](https://www.linkedin.com/in/nakitto-catherine2020/)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
+
+## License
